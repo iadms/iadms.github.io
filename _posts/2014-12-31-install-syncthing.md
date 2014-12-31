@@ -59,15 +59,19 @@ go run build.go
 syncthing config gui address 주소 바꾸기
 
 ```bash
+
 vim /home/donghee/.config/syncthing/config.xml 
+
 ```
 
-```xml
+```html
+
 <gui enabled="true" tls="false">
   <!-- <address>127.0.0.1:8080</address> -->
   <address>0.0.0.0:8080</address>
   <apikey>PzZVg6slKF9MQ7n9-XGNwWI5e3ZWLffg</apikey>
 </gui>
+
 ```
 
 ## 8. syncthing 실행
