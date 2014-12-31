@@ -62,7 +62,7 @@ syncthing config gui address 주소 바꾸기
 vim /home/donghee/.config/syncthing/config.xml 
 ```
 
-```
+```xml
 <gui enabled="true" tls="false">
   <!-- <address>127.0.0.1:8080</address> -->
   <address>0.0.0.0:8080</address>
