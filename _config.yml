@@ -72,3 +72,8 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
