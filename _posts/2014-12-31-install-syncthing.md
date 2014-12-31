@@ -76,15 +76,14 @@ syncthing config gui address 주소 바꾸기
   </code>
 </pre>
 
-<pre>
-  <code class="html">
-    <gui enabled="true" tls="false">
-      <!-- <address>127.0.0.1:8080</address> -->
-      <address>0.0.0.0:8080</address>
-      <apikey>PzZVg6slKF9MQ7n9-XGNwWI5e3ZWLffg</apikey>
-    </gui>
-  </code>
-</pre>
+
+{% highlight text %}
+<gui enabled="true" tls="false">
+  <!-- <address>127.0.0.1:8080</address> -->
+  <address>0.0.0.0:8080</address>
+  <apikey>PzZVg6slKF9MQ7n9-XGNwWI5e3ZWLffg</apikey>
+</gui>
+{% endhighlight %}
 
 ## 8. syncthing 실행
 
