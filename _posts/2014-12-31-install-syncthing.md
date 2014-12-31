@@ -77,7 +77,7 @@ syncthing config gui address 주소 바꾸기
 </pre>
 
 <pre>
-  <code class="ruby">
+  <code class="xml">
     <gui enabled="true" tls="false">
       <!-- <address>127.0.0.1:8080</address> -->
       <address>0.0.0.0:8080</address>
